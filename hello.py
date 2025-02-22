@@ -1,1 +1,1 @@
-print("git action [C")
+print("git action")
