@@ -23,14 +23,14 @@ jobs:
       - name: Run Python script
         run: python hello.py
 
-      - name: Set up Java
-        uses: actions/setup-java@v3
-        with:
-          distribution: 'temurin'
-          java-version: '17'
+      # - name: Set up Java
+      #   uses: actions/setup-java@v3
+      #   with:
+      #     distribution: 'temurin'
+      #     java-version: '17'
 
-      - name: Compile Java application
-        run: javac Hello.java
+      # - name: Compile Java application
+      #   run: javac Hello.java
 
-      - name: Run Java application
-        run: java Hello
+      # - name: Run Java application
+      #   run: java Hello
